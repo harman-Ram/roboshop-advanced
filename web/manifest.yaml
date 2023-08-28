@@ -48,7 +48,7 @@ data:
             }
 
             location /api/catalogue/ {
-               proxy_pass http://catalogue/;
+                proxy_pass http://catalogue/;
             }
 
             location /api/user/ {
