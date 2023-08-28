@@ -31,7 +31,7 @@ spec:
       containers:
       - name: shipping
         imagePullPolicy: Always
-        image: harmanram/shipping:k8
+        image: harmanram/shipping:v1
         envFrom:
         - configMapRef:
             name: shipping-config
